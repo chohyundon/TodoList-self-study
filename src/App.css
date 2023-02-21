@@ -1,0 +1,35 @@
+body{
+  background-color: white
+}
+
+.todo-item{
+  width:450px;
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 25px;
+  margin-top: 6px;
+}
+
+.sub{
+  border-top: 3px solid black;
+  font-size: 20px;
+}
+
+.name{
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.input-box{
+  width: 600px;
+  height: 20px;
+}
